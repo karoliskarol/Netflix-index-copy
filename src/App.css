@@ -143,3 +143,20 @@ nav select {
   font-size: 17px;
   margin-top: 3px;
 }
+
+.middle-section {
+  padding: 4.5rem 0;
+}
+
+.middle-section > .container {
+  padding: 2rem 0;
+}
+
+.middle-section img {
+  width: 100%;
+  height: auto;
+}
+
+.grey-top-border {
+  border-top: 10px solid #232323;
+}
