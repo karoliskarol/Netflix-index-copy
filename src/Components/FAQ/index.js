@@ -1,5 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
 import Question from './Question';
+import GetStarted from '../../GetStarted';
 
 const FAQ = () => {
     return (
@@ -54,6 +55,8 @@ const FAQ = () => {
                         a="Your browser preferences determine the language shown here."
                     />
                 </Accordion>
+
+                <GetStarted classes="text-center mt-2 mb-5" /> 
             </div>
         </section>
     );

@@ -1,5 +1,6 @@
 import './App.css';
 import FAQ from './Components/FAQ';
+import Footer from './Components/Footer';
 import Home from './Components/Home';
 import MiddleSection from './Components/MiddleSection';
 
@@ -30,6 +31,8 @@ function App() {
       />
 
       <FAQ />
+
+      <Footer />
     </div>
   );
 }

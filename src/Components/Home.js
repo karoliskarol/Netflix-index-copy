@@ -1,3 +1,4 @@
+import GetStarted from "../GetStarted";
 import Header from "./Header";
 
 
@@ -12,15 +13,8 @@ const Home = () => {
                     <div className="col-12">
                         <h1 className="home-title mb-2">Unlimited movies, TV shows, and more</h1>
                         <h2 className="home-title-2">Watch anywhere. Cancel anytime.</h2>
-                        <h2 className="home-title-3 mt-4">Ready to watch? Enter your email to create or restart your membership.</h2>
-
-                        <div className="d-flex get-started justify-content-center">
-                            <input placeholder="Email address" />
-                            <button className="d-flex align-items-center">
-                                <span>Get Started</span>
-                                <i class="bi bi-caret-right"></i>
-                            </button>
-                        </div>
+                        
+                        <GetStarted />
                     </div>
                 </div>
             </div>
