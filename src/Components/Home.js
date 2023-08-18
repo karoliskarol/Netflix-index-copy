@@ -1,4 +1,4 @@
-import GetStarted from "../GetStarted";
+import GetStarted from "./GetStarted";
 import Header from "./Header";
 
 

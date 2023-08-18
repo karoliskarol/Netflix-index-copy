@@ -1,6 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
 import Question from './Question';
-import GetStarted from '../../GetStarted';
+import GetStarted from '../GetStarted';
 
 const FAQ = () => {
     return (
