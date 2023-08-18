@@ -86,7 +86,7 @@ nav select {
   border-radius: 0.25rem;
 }
 
-.home-title, .middle-section-title {
+.home-title, .middle-section-title, .title {
   font-size: 3rem;
   font-weight: 900;
 }
@@ -159,4 +159,23 @@ nav select {
 
 .grey-top-border {
   border-top: 10px solid #232323;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-button {
+  background: #2d2d2d;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.accordion-item, .accordion-button {
+  border-radius: 0 !important;
+  border: 0;
+}
+
+.accordion-button::after {
+  display: none;
 }
